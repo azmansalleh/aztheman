@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import styled from "@emotion/styled";
 import colors from "styles/colors";
 import Logo from "components/_ui/Logo";
-import spooch from "images/oscar-icon.png"
+import ducklogo from "images/logo.png"
 
 const FooterContainer = styled("div")`
     padding-top: 3.75em;
@@ -54,8 +54,8 @@ const Footer = () => (
             <Logo />
         </Link>
         <FooterAuthor href="https://www.marguerite.io/?utm_source=prist&utm_medium=footer&utm_campaign=prist_starter">
-            © 2019 — Designed & developed by Marguerite Roth
-            <FooterSpooch className="FooterSpooch" src={spooch} />
+            © 2021 — Developed by Azman Salleh. OG design from Marguerite Roth
+            <FooterSpooch className="FooterSpooch" src={ducklogo} />
         </FooterAuthor>
     </FooterContainer>
 )

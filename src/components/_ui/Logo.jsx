@@ -11,7 +11,7 @@ import styled from "@emotion/styled";
 // );
 
 const Logo = styled("img")`
-    max-width: 80px;
+    max-width: 65px;
     margin-top: 0.25em;
 `
 
